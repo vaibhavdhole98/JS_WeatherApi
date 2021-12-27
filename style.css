@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+  padding: 0%;
+}
+
+body {
+  background-color: rgb(255, 134, 134);
+  font-family: Jazz LET, fantasy;
+}
+
+.container {
+  background-color: rgb(255, 255, 255);
+  width: 250px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 150px;
+  border-radius: 10px;
+  padding-bottom: 30px;
+}
+
+.title {
+  /* border: 2px solid red; */
+  width: 250px;
+  height: 50px;
+  border-radius: 10px 10px 0 0;
+}
+.title p {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 11px;
+  margin: -1px auto;
+  font-size: 1.5em;
+  color: #293251;
+}
+
+.notification {
+  background-color: rgb(243, 219, 219);
+  text-align: center;
+  display: none;
+}
+.notification p {
+  /* border: 2px solid red; */
+  color: rgb(236, 12, 12);
+  margin: 0px auto;
+  text-align: center;
+  padding: 8px 0px;
+}
+
+.weather-container {
+  /* border: 2px solid blue; */
+  width: 250px;
+  height: 250px;
+  background-color: rgb(108, 170, 199);
+}
+
+.weather-icon {
+  /* border: 2px solid red; */
+  width: 249px;
+  height: 122px;
+}
+
+.weather-icon img {
+  /* border: 3px solid pink; */
+  display: block;
+  margin: 0 auto;
+}
+
+.tempeature-meter {
+  /* border: 2px solid yellow; */
+  width: 250px;
+  height: 60px;
+}
+
+.tempeature-meter p{
+    /* border: 2px solid green; */
+    padding: 3px;
+    margin: 0px;
+    color: rgb(34, 43, 94);
+    font-size: 3em;
+    text-align: center;
+}
+
+.tempeature-meter span{
+    color: rgb(34, 43, 94);
+    font-size: 0.7em;
+}
+
+.temperature-description{
+    /* border: 2px solid white; */
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 1.2em;
+    height: 10px;
+    color: rgb(34, 43, 94);
+}
+
+.location{
+    /* border: 2px solid beige; */
+    margin: 0px;
+    padding: 0px;
+    color: rgb(34, 43, 94);
+    text-align: center;
+    font-size: 1em;
+}
