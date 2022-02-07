@@ -1,4 +1,4 @@
 # JS_WeatherApi
-In this project, I have used  weather API to get your current location weather forecast on your browser.
+In this project, weather API is used. By allowing your current location (city) from your browser,to this project,you will get your weather temprature information in degree Celsius (°C). 
 Click on the link for project .
 https://vaibhavdhole98.github.io/JS_WeatherApi/
